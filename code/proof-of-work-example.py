@@ -37,7 +37,7 @@ if __name__ == '__main__':
 
     # difficulty from 0 to 31 bits
     for difficulty_bits in xrange(32):
-        difficulty = 2 ** difficulty_bits
+        difficulty = 10 ** difficulty_bits
         print("Difficulty: %ld (%d bits)" % (difficulty, difficulty_bits))
         print("Starting search...")
 
